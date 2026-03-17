@@ -12,6 +12,8 @@ class QsShazamMediaModel {
     required this.videoURL,
     required this.explicitContent,
     required this.isrc,
+    required this.album,
+    required this.releaseDate,
   });
 
   late final String? shazamID;

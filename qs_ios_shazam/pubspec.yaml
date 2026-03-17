@@ -1,8 +1,8 @@
 name: qs_ios_shazam
 description: "这是一个iOS端听歌识曲的插件"
-version: 1.0.0
+version: 1.0.1
 license: "MIT"
-homepage:
+homepage: "https://github.com/fallpine/qs_ios_shazam"
 
 environment:
   sdk: ^3.7.0

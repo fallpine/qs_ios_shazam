@@ -44,6 +44,9 @@ class ShazamTool: NSObject {
   }
 
   func stopListening() {
+    if !audioEngine.isRunning {
+      return
+    }
     audioEngine.stop()
     audioEngine.inputNode.removeTap(onBus: 0)
     print("🛑 停止监听")
